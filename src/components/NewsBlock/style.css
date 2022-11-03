@@ -1,0 +1,177 @@
+.bloced {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloced span {
+    font-weight: 700;
+    font-size: 22px;
+    color: #3A3838;
+}
+
+.N-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: #EDEDED;
+}
+
+.N-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fotos-News {
+    max-width: 555px;
+    width: 100%;
+}
+
+.blocks {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBox {
+    max-width: 540px;
+    width: 100%;
+}
+
+.leftBox h3 {
+    margin-bottom: 1rem;
+}
+
+.textNews {
+    color: #686868;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 996px) and (max-width: 1199.9px) {
+    .blocks {
+        width: 80%;
+        height: auto;
+        /* background-color: blue; */
+
+
+
+    }
+
+    .N-block {
+
+        height: auto;
+        background-color: #EDEDED;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       gap: 10px;
+    }
+
+    .N-wrap {
+
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 995.9px) {
+    .blocks {
+        width: 100%;
+        height: auto;
+        /* background-color: blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .N-block {
+
+        height: auto;
+        background-color: #EDEDED;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .N-wrap {
+
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+    .leftBox,
+    .rightBox {
+        width: 62%;
+    }
+
+
+}
+
+@media (min-width: 500px) and (max-width: 767.9px) {
+    .leftBox,
+    .rightBox {
+        width: 80% !important;
+    }
+    
+    .blocks {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .N-block {
+        background-color: #EDEDED;
+        justify-content: center;
+    }
+    .N-wrap {
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+}
+
+@media (max-width: 499.9px) {
+    .blocks {
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .N-block {
+        width: 100%;
+        /* background-color: #9c0b0b; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .N-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        /* background-color: aqua; */
+    }
+
+
+
+}
